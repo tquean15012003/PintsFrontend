@@ -3,8 +3,8 @@ import logo from '../../Assets/Images/logo.png'
 
 export default function Homefooter() {
   return (
-    <footer className="dark:text-gray-50">
-      <div className="flex flex-col pt-4 mx-auto px-16 lg:flex-row divide-gray-400">
+    <footer className="dark:text-gray-50 container mx-auto">
+      <div className="flex flex-col pt-4 mx-auto lg:flex-row divide-gray-400">
         <p className="mb-0 self-center space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
           <img className="hover:scale-110 duration-500 w-1/6 h-1/6 cursor-pointer" src={logo} alt="logo" />
         </p>
