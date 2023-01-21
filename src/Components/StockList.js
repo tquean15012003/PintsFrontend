@@ -24,8 +24,8 @@ export default function StockList() {
                             <div className="flex space-x-4">
                                 {info.change >= 0 ?
                                     <>
-                                        <p className="text-base text-green-500"><i className="fa fa-long-arrow-alt-up"></i>{info.change}</p>
-                                        <p className="text-base text-green-500">{(info.changePercent * 100).toFixed(3)}</p>
+                                        <p className="text-base text-green-500"><i className="fa fa-long-arrow-alt-up"></i> {info.change}</p>
+                                        <p className="text-base text-green-500">{(info.changePercent * 100).toFixed(3)}%</p>
                                     </> :
                                     <>
                                         <p className="text-base text-red-500"><i className="fa fa-long-arrow-alt-down"></i>{info.change}</p>
