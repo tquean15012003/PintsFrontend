@@ -20,7 +20,7 @@ export default function StockList() {
                             <p className="text-base text-gray-400 font-medium">{info.companyName.length > 10 ? (info.companyName.slice(0, 10) + "...") : info.companyName}</p>
                         </div>
                         <div className="flex flex-col justify-between">
-                            <p className="text-3xl font-bold">{info.latestPrice}</p>
+                            <p className="text-3xl font-bold text-right">{info.latestPrice}</p>
                             <div className="flex space-x-4">
                                 {info.change >= 0 ?
                                     <>
